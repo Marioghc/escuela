@@ -27,6 +27,6 @@ Para probar el proyecto localmente, sigue estos pasos:
 
 ## Contacto
 
-Para cualquier consulta o reporte de problemas, contáctanos en [tu correo electrónico].
+Para cualquier consulta o reporte de problemas, contáctanos en marioghc3@hotmail.com.
 
 
