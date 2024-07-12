@@ -1,0 +1,8 @@
+body{
+	background-image: url(/escuela/public/img/fondo1.jpg);
+	background-size: cover;
+	/*background-color: #ccc;*/
+}
+.colornav{
+	background-color: skyblue;
+}

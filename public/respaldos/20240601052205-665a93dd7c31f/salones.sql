@@ -1,0 +1,35 @@
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+--
+-- Database: `escuela`
+--
+
+
+
+CREATE TABLE `salones` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `clave` int(11) NOT NULL,
+  `descripcion` varchar(100) NOT NULL,
+  `nota` varchar(200) NOT NULL,
+  `baja` int(11) NOT NULL,
+  `baja_dt` datetime NOT NULL,
+  `modificado_dt` datetime NOT NULL,
+  `creado_dt` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+
+INSERT INTO salones VALUES
+("1","0","A-101","Salon piso 1","0","0000-00-00 00:00:00","0000-00-00 00:00:00","2024-05-16 21:20:59"),
+("2","1","A-202","Sal&oacute;n piso 2","0","0000-00-00 00:00:00","0000-00-00 00:00:00","2024-05-16 21:38:55"),
+("3","4","A-302","Sal&oacute;n piso 3","0","0000-00-00 00:00:00","0000-00-00 00:00:00","2024-05-31 21:11:20");
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
