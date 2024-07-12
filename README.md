@@ -1,2 +1,2 @@
 # escuela
-escula
+escuela
